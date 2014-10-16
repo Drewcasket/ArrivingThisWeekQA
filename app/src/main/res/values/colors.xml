@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightblue">#03A9F4</color>
+    <color name="darkblue">#0287C3</color>
+    <color name="actionBarTabYellow">#D9F600</color>
+    <color name="grey">#EEEEED</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkgrey">#839496</color>
+    <color name="black">#000000</color>
+</resources>

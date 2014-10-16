@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Arriving this week QA</string>
+    <string name="app_name">Arriving This Week</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="publishers">Publishers</string>
+
+    <string-array name="titles">
+        <item>boom_studios</item>
+        <item>dark_horse</item>
+        <item>dc_comis</item>
+        <item>idw</item>
+        <item>image</item>
+        <item>marvel</item>
+    </string-array>
+
+    <string-array name="boomComicTitles">
+        <item>Amazing World of Gumball #3</item>
+        <item>Evil Empire #6</item>
+        <item>Hellraiser Bestiary #3</item>
+        <item>Jim Hensons Storyteller Witches #2</item>
+        <item>The Last Broadcast #6</item>
+        <item>Lumberjanes #7</item>
+        <item>Peanuts Vol.2 #22</item>
+        <item>Sleepy Hollow #1</item>
+        <item>Sons of Anarchy #14</item>
+        <item>Steven Universe #3</item>
+        <item>Uncle Grandpa #1</item>
+        <item>Wilds End #2</item>
+    </string-array>
+    <string-array name="boomDescriptions">
+        <item>Its a game of truth or dare and Gumball is determined to win. Hes going to prove that hes got the guts and he definitely wants the glory and completing all the dares without ever having to resort to a truth.</item>
+        <item>New story arc! With the true face of the Evil Empire revealed, the entire world has been turned on its head. Those who never thought theyd find themselves on the opposing side of society now have to resort to conforming to evil or go into hiding. Reese is now the leader of the underground resistance, but with the lines between right and wrong so blurred, shell have to watch her every move.</item>
+        <item>The trip through The Cenobites Bestiary continues! This month, Ed Brisson (Sheltered) and Alexis Ziritt (The Package) show us how smartphones and the LeMarchand Device are connected in Conduit, while in Puzzled, a young man with an aptitude for solving puzzles finds refuge with the legendary device. And finally, Pinhead erupts against the forces amassed against him in part three of The Hunted.</item>
+        <item>Kyla Vanderklugt, artist of SPERA and Archaias 2014 Free Comic Book Day LABYRINTH story, tells the beautiful Japanese tale of The Snow Witch in a gorgeous horizontal format standalone issue. When an old woodcutter and his young apprentice are caught in a blizzard, a mysterious woman dressed in white appears and freezes the woodcutter to death before eating his soul. She spares the apprentice if he vows never to tell of what he has seen. but keeping his word may not be so easy when he falls in love.</item>
+        <item>With truths revealed, Harumi, Niko, and Damon have to team up with Jackpot and the Nonchalants in order to get Ivan back from S.P.I. But with so many things going wrong all at once, how can they be sure who to trust, even amongst themselves?</item>
+        <item>Its a race through the woods and through everyones favorite cave of doom as the Lumberjanes make their way through previous obstacles. Now they know what answers theyre looking for and they are not going to leave until everything is out in the open. Only it looks like the boys camp might have other ideas.</item>
+        <item>When stars fill the skies, Charlie Brown, Lucy, and Linus must seek out the one star that can be called Charlie Browns own. Charlie Browns Star and many more brand-new adventures like Dogstoyefsky and Sallys Great Pumpkin can be found in this exciting issue of Peanuts.</item>
+        <item>WHY WE LOVE IT: As fans of the SLEEPY HOLLOW television series (now entering its second season on Fox), we knew we had to make a comic just as haunting, engaging and visually gorgeous as the show itself. Featuring multilayered characters, intense visuals, and creepy storylines, SLEEPY HOLLOW is primed for comics. WHY YOULL LOVE IT: One of the most exciting young writers working today, Scott Snyder prot</item>
+        <item>With the Slaughter and SAMTAZ allied, Jax must find a way to break apart their allegiance before they plunge Charming, and possibly the entire state, into a dangerous, bloody gang war.</item>
+        <item>Greg Universe plans on entering Beach Citys monthly Open Mic Night to really show Steven and Beach City that even though he may not have a lot of hair, he IS Greg Universe. Meanwhile, the Gems are busy tracking down a beast that the residents of Beach City claim exist but cannot be confirmed. Its nothing but fighting and might fine tunes in this super fun issue!</item>
+        <item>WHY WE LOVE IT: Adventure Time. Regular Show. The Amazing World of Gumball. Can you tell we love Cartoon Networks shows? Were excited to welcome Uncle Grandpa to KaBOOM! comics. Its quirky, goofy, and ohsofun-a perfect formula for the four-color page. WHY YOULL LOVE IT: This MAD Magazine-style comic is going to feature all manner of short strips, games, and more goofy things. If you are a a fan of cartoonists like Don Martin, Gary Larson, and Tex Avery, youll enjoy UNCLE GRANDPA. WHATS IT ABOUT: Uncle Grandpa is everyones magical uncle and grandpa, and hes come to help kids with their problems in surreal and wacky ways! Its a collection of zany shorts, games, and strips starring Uncle Grandpa, Pizza Steve, Mr. Gus, and all the other crazy characters from the hit Cartoon Network show created by Peter Browngardt.</item>
+        <item>The search for the cause of a devastating fire that has left Crowchurch in mourning leads Clive and the others deep into the forest where they meet a new ally combating an alien threat at her door.</item>
+    </string-array>
+
+    <string name="title_activity_comic_release_list">ComicReleaseListActivity</string>
 
 </resources>

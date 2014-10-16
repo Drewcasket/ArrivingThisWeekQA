@@ -2,11 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="detroitlabs.arrivingthisweekqa" >
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-sdk android:minSdkVersion="14"
+        android:targetSdkVersion="19"
+        android:maxSdkVersion="20"/>
+
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/atw_title_1"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
@@ -15,6 +20,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ComicReleaseListActivity"
+            android:label="@string/title_activity_comic_release_list" >
         </activity>
     </application>
 
