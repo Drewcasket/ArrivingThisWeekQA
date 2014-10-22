@@ -8,41 +8,265 @@
     <string name="publishers">Publishers</string>
 
     <string-array name="titles">
-        <item>boom_studios</item>
-        <item>dark_horse</item>
-        <item>dc_comis</item>
-        <item>idw</item>
-        <item>image</item>
-        <item>marvel</item>
+        <item>Boom Studios</item>
+        <item>Dark Horse</item>
+        <item>DC</item>
+        <item>IDW Publishing</item>
+        <item>Image</item>
+        <item>Marvel</item>
     </string-array>
 
-    <string-array name="boomComicTitles">
-        <item>Amazing World of Gumball #3</item>
-        <item>Evil Empire #6</item>
-        <item>Hellraiser Bestiary #3</item>
-        <item>Jim Hensons Storyteller Witches #2</item>
-        <item>The Last Broadcast #6</item>
+    <string-array name="boomLastWeekTitles">
+        <item>Adventure Time #32</item>
+        <item>Cloaks #2</item>
+        <item>Garfield #30</item>
+        <item>Regular Show #15</item>
+        <item>Robocop 2014 #4</item>
+    </string-array>
+    <string-array name="boomLastWeekDescriptions">
+        <item>Finn is on an impossible mission to break Magic Man\'s curse so that he can finally live his life. \n\n$3.99  |  COMIC</item>
+        <item>After the shocking reveal of what truly happened to his mentor and father figure Blackstone, Adam reluctantly agrees to join the ranks of the CLOAKS blackops organization and is immediately thrown int... \n\n$3.99  |  COMIC</item>
+        <item>Garfield and the gang have nothing but treats for you! First, Garfield and Odie find a magic wand that turns their world upside down. Then, the amazing Genevieve FT returns to... \n\n$3.99  |  COMIC</item>
+        <item>It\'s the battle of the coffee shops, and it looks like there is no end in sight for this crazy caffeine war. Margaret and Eileen get ready to fight the war but it looks like Mordecai and Rigby might h... \n\n$3.99  |  COMIC</item>
+        <item>The guns are gone. Old Detroit riots. The politicians rage. Everything is going according to plan. With Killian\'s undertaking in full effect, RoboCop and Anne Lewis are the only ones who can stop his ... \n\n$3.99  |  COMIC</item>
+    </string-array>
+    <string-array name="boomCurrentWeekTitles">
+        <item>Black Market #4</item>
+        <item>Dead Letters #5</item>
+        <item>Fiction Squad #1</item>
+        <item>Teen Dog #2</item>
+        <item>Thomas Alsop #5</item>
+    </string-array>
+    <string-array name="boomCurrentWeekDescriptions">
+        <item>Everything\'s looking up for Ray-he\'s off the hook for the murder of Hotspot, the crooked cops aiming to blackmail him have been framed and incarcerated, and he finally has enough money to afford treat... \n\n$3.99  |  LIMITED SERIES</item>
+        <item>In this new story arc, Sam\'s second case begins \'Here\': As the freshly spawned gang war between Ma and Jones rages across the supernatural metropolis, Sam is enlisted by the new powersthatbe to infilt... \n\n$3.99  |  COMIC</item>
+        <item>Fablewood is a pretty dangerous place, but no area is more dangerous than the City of Rimes, deep in the heart of the Children\'s Realm. After transferring in from the realm of Mystery, a failed detective... \n\n$3.99  |  LIMITED SERIES</item>
+        <item>High school is tough, man. Even when you\'re Teen Dog. Teachers, homework, and bullies are always trying to cramp your style. But, hey! That\'s what buddies, pizza, and good times are for. Gotta keep th... \n\n$3.99  |  COMIC</item>
+        <item>Thomas has a knack for rubbing people the wrong way, but has he gone too far this time? In order to save the souls of the 3,000, Thomas must go to extremes and sacrifice everything he\'s built, includi... \n\n$3.99  |  LIMITED SERIES</item>
+    </string-array>
+    <string-array name="boomNextWeekTitles">
         <item>Lumberjanes #7</item>
         <item>Peanuts Vol.2 #22</item>
-        <item>Sleepy Hollow #1</item>
         <item>Sons of Anarchy #14</item>
-        <item>Steven Universe #3</item>
         <item>Uncle Grandpa #1</item>
         <item>Wilds End #2</item>
     </string-array>
-    <string-array name="boomDescriptions">
-        <item>Its a game of truth or dare and Gumball is determined to win. Hes going to prove that hes got the guts and he definitely wants the glory and completing all the dares without ever having to resort to a truth.</item>
-        <item>New story arc! With the true face of the Evil Empire revealed, the entire world has been turned on its head. Those who never thought theyd find themselves on the opposing side of society now have to resort to conforming to evil or go into hiding. Reese is now the leader of the underground resistance, but with the lines between right and wrong so blurred, shell have to watch her every move.</item>
-        <item>The trip through The Cenobites Bestiary continues! This month, Ed Brisson (Sheltered) and Alexis Ziritt (The Package) show us how smartphones and the LeMarchand Device are connected in Conduit, while in Puzzled, a young man with an aptitude for solving puzzles finds refuge with the legendary device. And finally, Pinhead erupts against the forces amassed against him in part three of The Hunted.</item>
-        <item>Kyla Vanderklugt, artist of SPERA and Archaias 2014 Free Comic Book Day LABYRINTH story, tells the beautiful Japanese tale of The Snow Witch in a gorgeous horizontal format standalone issue. When an old woodcutter and his young apprentice are caught in a blizzard, a mysterious woman dressed in white appears and freezes the woodcutter to death before eating his soul. She spares the apprentice if he vows never to tell of what he has seen. but keeping his word may not be so easy when he falls in love.</item>
-        <item>With truths revealed, Harumi, Niko, and Damon have to team up with Jackpot and the Nonchalants in order to get Ivan back from S.P.I. But with so many things going wrong all at once, how can they be sure who to trust, even amongst themselves?</item>
-        <item>Its a race through the woods and through everyones favorite cave of doom as the Lumberjanes make their way through previous obstacles. Now they know what answers theyre looking for and they are not going to leave until everything is out in the open. Only it looks like the boys camp might have other ideas.</item>
-        <item>When stars fill the skies, Charlie Brown, Lucy, and Linus must seek out the one star that can be called Charlie Browns own. Charlie Browns Star and many more brand-new adventures like Dogstoyefsky and Sallys Great Pumpkin can be found in this exciting issue of Peanuts.</item>
-        <item>WHY WE LOVE IT: As fans of the SLEEPY HOLLOW television series (now entering its second season on Fox), we knew we had to make a comic just as haunting, engaging and visually gorgeous as the show itself. Featuring multilayered characters, intense visuals, and creepy storylines, SLEEPY HOLLOW is primed for comics. WHY YOULL LOVE IT: One of the most exciting young writers working today, Scott Snyder prot</item>
-        <item>With the Slaughter and SAMTAZ allied, Jax must find a way to break apart their allegiance before they plunge Charming, and possibly the entire state, into a dangerous, bloody gang war.</item>
-        <item>Greg Universe plans on entering Beach Citys monthly Open Mic Night to really show Steven and Beach City that even though he may not have a lot of hair, he IS Greg Universe. Meanwhile, the Gems are busy tracking down a beast that the residents of Beach City claim exist but cannot be confirmed. Its nothing but fighting and might fine tunes in this super fun issue!</item>
-        <item>WHY WE LOVE IT: Adventure Time. Regular Show. The Amazing World of Gumball. Can you tell we love Cartoon Networks shows? Were excited to welcome Uncle Grandpa to KaBOOM! comics. Its quirky, goofy, and ohsofun-a perfect formula for the four-color page. WHY YOULL LOVE IT: This MAD Magazine-style comic is going to feature all manner of short strips, games, and more goofy things. If you are a a fan of cartoonists like Don Martin, Gary Larson, and Tex Avery, youll enjoy UNCLE GRANDPA. WHATS IT ABOUT: Uncle Grandpa is everyones magical uncle and grandpa, and hes come to help kids with their problems in surreal and wacky ways! Its a collection of zany shorts, games, and strips starring Uncle Grandpa, Pizza Steve, Mr. Gus, and all the other crazy characters from the hit Cartoon Network show created by Peter Browngardt.</item>
-        <item>The search for the cause of a devastating fire that has left Crowchurch in mourning leads Clive and the others deep into the forest where they meet a new ally combating an alien threat at her door.</item>
+    <string-array name="boomNextWeekDescriptions">
+        <item>It\'s a race through the woods and through everyones\' favorite cave of doom as the Lumberjanes make their way through previous obstacles. Now they know what answers they\'re looking for and they are not... \n\n$3.99  |  LIMITED SERIES</item>
+        <item>When stars fill the skies, Charlie Brown, Lucy, and Linus must seek out the one star that can be called Charlie Brown\'s own. Charlie Brown\'s Star and many more brand-new adventures like Dogstoyefsky a... \n\n$3.99  |  COMIC</item>
+        <item>With the Slaughter and SAMTAZ allied, Jax must find a way to break apart their allegiance before they plunge Charming, and possibly the entire state, into a dangerous, bloody gang war. \n\n$3.99  |  COMIC</item>
+        <item>We\'re excited to welcome Uncle Grandpa to KaBOOM! comics. It\'s quirky, goofy, and ohsofun-a perfect formula for the four-color page. \n\n$3.99  |  COMIC</item>
+        <item>The search for the cause of a devastating fire that has left Crowchurch in mourning leads Clive and the others deep into the forest where they meet a new ally combating an alien threat at her door. \n\n$3.99  |  COMIC</item>
+    </string-array>
+    <string-array name="darkhorseLastWeekTitles">
+        <item>Creepy Comics #18</item>
+        <item>Dark Ages #3</item>
+        <item>Fathers Day #1</item>
+        <item>Halo Escalation #11</item>
+        <item>X #18</item>
+    </string-array>
+    <string-array name="darkhorseLastWeekDescriptions">
+        <item>It\'s Uncle Creepy\'s golden anniversary, and his loathsome legacy lives on in this milestone of macabre monstrosity! \n\n$3.99  |  COMIC</item>
+        <item>Fortified in a secluded monastery, the heathen mercenaries discover a strange new ally in their war against the demons from the sky. But this new discovery reveals a conflict much older-and much more... \n\n$3.99  |  LIMITED SERIES</item>
+        <item>As a mob enforcer he was called the Eastside Butcher, but twenty years later Silas has found peace. That is, until his abandoned daughter shows up to give him a piece of her mind... \n\n$3.99  |  LIMITED SERIES</item>
+        <item>\'Exposure\' part 1-Spartans Ray and Thorne set out on a secret mission to uncover the origin of a monstrous new bioweapon... but is it too late to prevent total catastrophe? \n\n$3.99  |  COMIC</item>
+        <item>X has been abducted by the Skin Traders! Their gruesome, animal-faced leader is determined to get a slice of X\'s famously resilient flesh. While Leigh and Ruidoso mobilize to track down X\'s whereabout... \n\n$2.99  |  COMIC</item>
+    </string-array>
+    <string-array name="darkhorseCurrentWeekTitles">
+        <item>Colder Bad Seed #1</item>
+        <item>Gantz Vol.33 TP</item>
+        <item>Pop #3</item>
+        <item>Tomb Raider #9</item>
+        <item>Vachss Underground HC</item>
+    </string-array>
+    <string-array name="darkhorseCurrentWeekDescriptions">
+        <item>Life goes on for Declan Thomas after his deadly encounter with the psychotic Nimble Jack, but Declan\'s strange powers continue to develop, offering him a profound connection with the nature of insanit... \n\n$3.99  |  COMIC</item>
+        <item>While the war with the aliens is apparently over, aboard the invaders\' mother ship, human prisoners face a parade of horrors for the televised amusement of the offworlders. And as Kei desperately trie... \n\n$13.99  |  TRADE PAPERBACK</item>
+        <item>The walls are closing in. The threads are converging. How long can Elle and Coop run before their luck finally runs out? Before they\'re finally captured? Just how far will the cartel go to reclaim Ell... \n\n$3.99  |  COMIC</item>
+        <item>Roanoke: a desolate, cursed place, forgotten by history. Lara and her allies find themselves trapped in this terrifying lost colony as they try to escape the hired killer gunning for them. However.... \n\n$3.50  |  COMIC</item>
+        <item>The hard-hitting tale of oppression and revolution continues in this original graphic novel collecting the three-part Underground from Dark Horse Presents and over one hundred pages of new content! W... \n\n$29.99  |  HARD COVER</item>
+    </string-array>
+    <string-array name="darkhorseNextWeekTitles">
+        <item>Captain Midnight #16</item>
+        <item>Conan Avenger #7</item>
+        <item>Deep Gravity #4</item>
+        <item>Massive #28</item>
+        <item>Mind Mgmt #27</item>
+    </string-array>
+    <string-array name="darkhorseNextWeekDescriptions">
+        <item>Something\'s stirring in the night, creeping and skulking at the edges of sight! A threat more savage than Captain Midnight\'s faced before: a canine danger from fable and lore. As the darkness grows an... \n\n$2.99  |  COMIC</item>
+        <item>After arriving in a port town, Conan and his allies are thrown into battle against an army of brigands, and Conan enters into an uncertain alliance to steal a legendary treasure of immeasurable wealth... \n\n$3.50  |  COMIC</item>
+        <item>Their only means of escape exploded before their eyes. Now the survivors on the Vanguard have little hope left and a vicious creature stalking in the shadows. Can the people on the planet mount a resc... \n\n$3.99  |  LIMITED SERIES</item>
+        <item>As a storm rages around the crew of the Kapital they embrace the reappearance of The Massive, and learn much more about the origin of the Crash from Mary. But it\'s only when masses of earth rise from... \n\n$3.50  |  COMIC</item>
+        <item>Deep in South America, Meru receives training from the oldest living agent of Mind Management and, in the process, gets a peek into what the Management was really like in the mid-twentieth century! \n\n$3.99  |  COMIC</item>
+    </string-array>
+    <string-array name="dcLastWeekTitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="dcLastWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="dcCurrentWeekTitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="dcCurrentWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="dcNextWeekTitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="dcNextWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="idwLastWeekTitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="idwLastWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="idwCurrentWeekTitles">
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    <item></item>
+    </string-array>
+    <string-array name="idwCurrentWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="idwNextWeekTitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="idwNextWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="imageLastWeekTitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="imageLastWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="imageCurrentWeekTitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="imageCurrentWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="imageNextWeekTitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="imageNextWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="marvelLastWeekTitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="marvelLastWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="marvelCurrentWeekTitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="marvelCurrentWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="marvelNextWeekTitles">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="marvelNextWeekDescriptions">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
     </string-array>
 
     <string name="title_activity_comic_release_list">ComicReleaseListActivity</string>

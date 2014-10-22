@@ -10,19 +10,21 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
-
-public class CurrentWeekFragment extends Fragment implements AdapterView.OnItemClickListener {
+public class BoomLastWeekFragment extends Fragment implements AdapterView.OnItemClickListener {
 
     ListView list;
     String [] boomTitles;
     String [] boomDescriptions;
-    int[] images = {R.drawable.boomawog, R.drawable.boomee, R.drawable.boomhr, R.drawable.boomjhst, R.drawable.boomlj, R.drawable.boompeanuts, R.drawable.boomsh, R.drawable.boomsoa, R.drawable.boomsu, R.drawable.boomtlb, R.drawable.boomug, R.drawable.boomwe};
-
+    int[] images = {R.drawable.adventuretime, R.drawable.cloaks, R.drawable.garfield, R.drawable.regularshow, R.drawable.robocop };
+    int favImage;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -36,10 +38,10 @@ public class CurrentWeekFragment extends Fragment implements AdapterView.OnItemC
         list = (ListView) getView().findViewById(android.R.id.list);
 
         Resources res = getResources();
-        boomTitles = res.getStringArray(R.array.boomComicTitles);
-        boomDescriptions = res.getStringArray(R.array.boomDescriptions);
+        boomTitles = res.getStringArray(R.array.boomLastWeekTitles);
+        boomDescriptions = res.getStringArray(R.array.boomLastWeekDescriptions);
 
-        BoomComicAdapter adapter = new BoomComicAdapter(getActivity(), boomTitles, boomDescriptions, images );
+        BlwComicAdapter adapter = new BlwComicAdapter(getActivity(), boomTitles, boomDescriptions, images, favImage );
         list.setAdapter(adapter);
         list.setOnItemClickListener(this);
     }
@@ -53,20 +55,24 @@ public class CurrentWeekFragment extends Fragment implements AdapterView.OnItemC
     }
 }
 
-class BoomComicAdapter extends ArrayAdapter<String> {
+class BlwComicAdapter extends ArrayAdapter<String> {
 
     Context context;
     int[] images;
+    int favImage;
     String[] titleArray;
     String[] descriptionArray;
 
-    BoomComicAdapter(Context c, String[] titles, String[] descriptions, int imgs[]) {
+
+    BlwComicAdapter(Context c, String[] titles, String[] descriptions, int imgs[], int favImg) {
 
         super(c, R.layout.single_row_release_list, R.id.textView, titles);
         this.context = c;
         this.images = imgs;
+        this.favImage = favImg;
         this.titleArray = titles;
         this.descriptionArray = descriptions;
+
     }
 
 
@@ -75,12 +81,40 @@ class BoomComicAdapter extends ArrayAdapter<String> {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View row = inflater.inflate(R.layout.single_row_release_list, parent, false);
         ImageView myImage = (ImageView) row.findViewById(R.id.imageView);
+        final ImageButton myFavON = (ImageButton) row.findViewById(R.id.favoritesON);
+        final ImageButton myFavOFF = (ImageButton) row.findViewById(R.id.favoritesOFF);
         TextView myTitle = (TextView) row.findViewById(R.id.textView);
-        TextView myDescription = (TextView) row.findViewById(R.id.textView2);
+        final TextView myDescriptionOFF = (TextView) row.findViewById(R.id.textView2a);
+        final TextView myDescriptionON = (TextView) row.findViewById(R.id.textView2b);
 
         myImage.setImageResource(images[position]);
         myTitle.setText(titleArray[position]);
-        myDescription.setText(descriptionArray[position]);
+        myDescriptionOFF.setText(descriptionArray[position]);
+        myDescriptionON.setText(descriptionArray[position]);
+        myDescriptionON.setVisibility(View.GONE);
+        myFavOFF.setVisibility(View.VISIBLE);
+        myFavON.setVisibility(View.GONE);
+
+
+        myFavOFF.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                myFavOFF.setVisibility(View.GONE);
+                myFavON.setVisibility(View.VISIBLE);
+                myDescriptionOFF.setVisibility(View.GONE);
+                myDescriptionON.setVisibility(View.VISIBLE);
+            }
+        });
+
+        myFavON.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                myFavOFF.setVisibility(View.VISIBLE);
+                myFavON.setVisibility(View.GONE);
+                myDescriptionOFF.setVisibility(View.VISIBLE);
+                myDescriptionON.setVisibility(View.GONE);
+            }
+        });
         return row;
     }
 }

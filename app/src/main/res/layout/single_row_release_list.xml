@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:id="@+id/imageView"
-        android:src="@drawable/boomawog"
+        android:src="@drawable/cloaks"
 
         />
 
@@ -18,17 +18,39 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Comic Title"
         android:id="@+id/textView"
-        android:layout_alignTop="@+id/imageView"
         android:layout_toRightOf="@+id/imageView"
-        android:layout_toEndOf="@+id/imageView" />
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginRight="15dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Description"
-        android:id="@+id/textView2"
-        android:layout_toEndOf="@+id/imageView"
-        android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/imageView"
+        android:id="@+id/textView2a"
+        android:layout_below="@+id/favoritesOFF"
+        android:layout_toRightOf="@+id/imageView"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:id="@+id/textView2b"
+        android:layout_below="@+id/favoritesON"
+        android:layout_toRightOf="@+id/imageView"/>
+
+    <ImageButton
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:id="@+id/favoritesON"
+    android:src="@drawable/fav_on"
+    android:layout_alignTop="@+id/imageView"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/favoritesOFF"
+        android:src="@drawable/fav_off"
+        android:layout_alignTop="@+id/imageView"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 

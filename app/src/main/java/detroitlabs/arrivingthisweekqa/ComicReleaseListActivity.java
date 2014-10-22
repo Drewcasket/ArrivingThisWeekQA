@@ -45,7 +45,11 @@ public class ComicReleaseListActivity extends FragmentActivity implements Action
             @Override
             public void onPageScrollStateChanged(int arg0) {
             }
+
+
         });
+
+        
         actionBar=getActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
         actionBar.setTitle(companyTitle);
@@ -86,6 +90,7 @@ public class ComicReleaseListActivity extends FragmentActivity implements Action
 
     }
 
+
     class ComicReleaseListAdapter extends FragmentStatePagerAdapter {
         DateFormatter dateFormatter;
 
@@ -97,16 +102,59 @@ public class ComicReleaseListActivity extends FragmentActivity implements Action
         @Override
         public Fragment getItem(int i) {
             Fragment fragment=null;
-            if(i==0) {
-                fragment = new CurrentWeekFragment();
-
+            if (i == 0 && (companyTitle.equals("Boom Studios"))) {
+                fragment = new BoomLastWeekFragment();
             }
-            if(i==1) {
-                fragment=new CurrentWeekFragment();
+            if (i == 0 && (companyTitle.equals("Dark Horse"))) {
+                fragment = new DarkhorseLastWeekFragment();
             }
-            if(i==2) {
-                fragment=new CurrentWeekFragment();
-
+            if (i == 0 && (companyTitle.equals("DC"))){
+                fragment = new DcLastWeekFragment();
+            }
+            if(i==0 && (companyTitle.equals("IDW Publishing"))) {
+                fragment = new IdwLastWeekFragment();
+            }
+            if(i==0 && (companyTitle.equals("Image"))) {
+                fragment = new ImageLastWeekFragment();
+            }
+            if (i==0 && (companyTitle.equals("Marvel"))) {
+                fragment = new MarvelLastWeekFragment();
+            }
+            if (i == 1 && (companyTitle.equals("Boom Studios"))) {
+                fragment = new BoomCurrentWeekFragment();
+            }
+            if (i == 1 && (companyTitle.equals("Dark Horse"))) {
+                fragment = new DarkhorseCurrentWeekFragment();
+            }
+            if (i == 1 && (companyTitle.equals("DC"))) {
+                fragment = new DcCurrentWeekFragment();
+            }
+            if (i == 1 && (companyTitle.equals("IDW Publishing"))) {
+                fragment = new IdwCurrentWeekFragment();
+            }
+            if (i == 1 && (companyTitle.equals("Image"))) {
+                fragment = new ImageCurrentWeekFragment();
+            }
+            if (i == 1 && (companyTitle.equals("Marvel"))) {
+                fragment = new MarvelCurrentWeekFragment();
+            }
+            if (i == 2 && (companyTitle.equals("Boom Studios"))) {
+                fragment = new BoomNextWeekFragment();
+            }
+            if (i == 2 && (companyTitle.equals("Dark Horse"))) {
+                fragment = new DarkhorseNextWeekFragment();
+            }
+            if (i == 2 && (companyTitle.equals("DC"))) {
+                fragment = new DcNextWeekFragment();
+            }
+            if (i == 2 && (companyTitle.equals("IDW Publishing"))) {
+                fragment = new IdwNextWeekFragment();
+            }
+            if (i == 2 && (companyTitle.equals("Image"))) {
+                fragment = new ImageNextWeekFragment();
+            }
+            if (i == 2 && (companyTitle.equals("Marvel"))) {
+                fragment = new MarvelNextWeekFragment();
             }
             return fragment;
         }
@@ -115,21 +163,6 @@ public class ComicReleaseListActivity extends FragmentActivity implements Action
         public int getCount() {
             return 3;
         }
-
-//    @Override
-//    public CharSequence getPageTitle(int position) {
-//        String title=new String();
-//        if(position==0) {
-//            return "Publishers";
-//        }
-//        if(position==1) {
-//            return "Favorites";
-//        }
-//        if(position==2) {
-//            return "Search";
-//        }
-//        return super.getPageTitle(position);
-//    }
 
     }
 }
