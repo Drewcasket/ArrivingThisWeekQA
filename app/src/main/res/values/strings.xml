@@ -2,9 +2,7 @@
 <resources>
 
     <string name="app_name">Arriving This Week</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="publishers">Publishers</string>
 
     <string-array name="titles">
@@ -13,7 +11,7 @@
         <item>DC</item>
         <item>IDW Publishing</item>
         <item>Image</item>
-        <item>Marvel</item>
+        <item>Error 472</item>
     </string-array>
 
     <string-array name="boomLastWeekTitles">
@@ -101,172 +99,201 @@
         <item>Deep in South America, Meru receives training from the oldest living agent of Mind Management and, in the process, gets a peek into what the Management was really like in the mid-twentieth century! \n\n$3.99  |  COMIC</item>
     </string-array>
     <string-array name="dcLastWeekTitles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Aquaman (2011) #35</item>
+        <item>Arkham Manor #1</item>
+        <item>Batman Beyond Universe #15</item>
+        <item>Catwoman (2011) #35</item>
+        <item>Deathstroke #1</item>
     </string-array>
     <string-array name="dcLastWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>The shocking truth is revealed: The tomb of Aquaman\'s mother is empty! But there\'s something sinister about this development that will change Arthur\'s life forever. \n\n$2.99  |  COMIC</item>
+        <item>When catastrophe strikes Arkham Asylum, where will Gotham City house the world\'s most dangerous criminals, and when inmates are found murdered, what is Batman prepared to do in search of justice? Arkh... \n\n$2.99  |  COMIC</item>
+        <item>Rewire is out of Arkham. Ghoul is back on the streets and selling modified Joker toxin. And now Terry\'s girlfriend Melanie might have gone back to her old habits. Can things get any worse? Oh yeah - I... \n\n$3.99  |  COMIC</item>
+        <item>Meet Selina Kyle - Crime Boss of Gotham City! Spinning out of events in BATMAN ETERNAL Selina has accepted the family mantle and embraced her true criminal side, but is Gotham City ready for her reign... \n\n$2.99  |  COMIC</item>
+        <item>The DCU\'s deadliest assassin stars in his own ongoing series by writer/artist Tony S. Daniel! See him as never before in this explosive new series, with one surprise after another as we see Slade Wils... \n\n$2.99  |  COMIC</item>
     </string-array>
     <string-array name="dcCurrentWeekTitles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Absolute Batman Haunted Knight HC</item>
+        <item>Batwoman (2011) #35</item>
+        <item>Harley Quinn Annual #1</item>
+        <item>Justice League (2011) #35</item>
+        <item>Red Hood and the Outlaws (2011) #35</item>
+
     </string-array>
     <string-array name="dcCurrentWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>In this new Absolute edition by the team of writer Jeph Loeb and artist Tim Sale, Batman faces off against his most demented and wicked foes. Taking place on the most evil of holidays, Halloween, the... \n\n$99.99  |  HARD COVER</item>
+        <item>Batwoman is neck-deep in danger with her new allies Ragman, The Demon, Clayface and... \n\n$2.99  |  COMIC</item>
+        <item>We have to warn you, readers: This issue stinks! Seriously! Like, unpleasant odors are literally in the story! In this first-ever HQ ANNUAL, take a trip to Harley\'s home of Coney Island in a groundbre... \n\n$5.99  |  ANNUAL</item>
+        <item>\'THE AMAZO VIRUS\' begins here! Bruce Wayne and Lex Luthor join Wayne Enterprises and LexCorp - but why? And then, it\'s HUMAN VS. SUPER-HUMAN when a dangerous and bizarre virus is unleashed upon the Ju... \n\n$3.99  |  COMIC</item>
+        <item>Things are spinning out of control for the Outlaws when Roy realizes that he\'s the only member of the team not abusing drugs! \n\n$2.99  |  COMIC</item>
+
     </string-array>
     <string-array name="dcNextWeekTitles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Batgirl (2011) #35</item>
+        <item>Batman (2011) #35</item>
+        <item>Constantine (2013) #18</item>
+        <item>Earth 2 (2012) #27</item>
+        <item>Klarion #1</item>
     </string-array>
     <string-array name="dcNextWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Barbara Gordon is no stranger to dusting herself off when disaster strikes. \n\n$2.99  |  COMIC</item>
+        <item>From the superstar creative team that brought you a new start to the Caped Crusader comes the story that could end him. Be there in October for the biggest, deadliest and most epic story yet from writ... \n\n$3.99  |  COMIC</item>
+        <item>Trapped on a dying world, John will have to pull off the most daring escape of his life if he\'s going to survive! Don\'t miss the debut of new series artist Jeremy Haun (BATWOMAN). \n\n$2.99  |  COMIC</item>
+        <item>World\'s End is here! Everything the Wonders of Earth 2 have fought for stands to be destroyed. Be here as their powers are tested and hard choices are made!  \n\n$2.99  |  COMIC</item>
+        <item>Klarion the Witch Boy makes his New 52 debut and stands for the forces of chaos in this new ongoing series! \n\n$2.99  |  COMIC</item>
     </string-array>
     <string-array name="idwLastWeekTitles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Adventure Kartel HC</item>
+        <item>Blaze Brothers Vol. 1 TP</item>
+        <item>Judge Dredd #24</item>
+        <item>Skylanders #1</item>
+        <item>Teenage Mutant Ninja Turtles #39</item>
     </string-array>
     <string-array name="idwLastWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>This gorgeously oversized hardcover from the creators of Lore presents the comics, posters, conceptual designs, sketches, and other beautifully rendered miscellany involving Tommy Mission and his Adve... \n\n$75.00  |  HARD COVER</item>
+        <item>This tale of two orphaned half brothers, reared by an exiled Chinese martial arts Master, and trained as deadly assassins by a secret US Black Ops force, was illustrated by Marat Mychaels of Marvel\'s... \n\n$17.99  |  TRADE PAPERBACK</item>
+        <item>\'Black Light District, conclusion\'-It\'s on! Hang on to your wigs and keys, citizens-here comes the no-holds-barred brawl between Dredd and Judge Death you\'ve been waiting for. \n\n$3.99  |  COMIC</item>
+        <item>The smash-hit videogame and toy sensation, Skylanders, makes its comic book debut this fall! This all-new series will focus on fan-favorite characters and features stories tying directly into the vide... \n\n$3.99  |  LIMITED SERIES</item>
+        <item>The ranks of Hob\'s gang are growing, and two other mutants want in... Bebop and Rocksteady!! Will they imperil the Turtles\' wary alliance with Hob? And just what the heck are Don and Harold busy buildin... \n\n$3.99  |  COMIC</item>
     </string-array>
     <string-array name="idwCurrentWeekTitles">
-    <item></item>
-    <item></item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item>7th Sword #5</item>
+    <item>Edward Scissorhands #1</item>
+    <item>G.I. Joe (2014) #2</item>
+    <item>Godzilla Cataclysm #3</item>
+    <item>The Maxx: Maxximized #12</item>
     </string-array>
     <string-array name="idwCurrentWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>After far too little time together, Cray and his Students part ways-the latter setting off to storm the warlord Kavanaugh\'s sandship, the former having booked passage back to Earth. But along the way... \n\n$3.99  |  COMIC</item>
+        <item>An all-new adventure revisiting Edward Scissorhands five decades after the end of the fan-favorite movie! In castle just outside a sleepy suburban town, a brilliant inventor created Edward Scissorhan... \n\n$3.99  |  LIMITED SERIES</item>
+        <item>THE FALL OF G.I. JOE! Scarlett\'s last chance to save the G.I. JOE team\'s existence is threatened on all sides-the U.S. government, shady spy organizations, two warring factions in a nation in the thro... \n\n$3.99  |  COMIC</item>
+        <item>Government experiments with new forms of energy bring unintended consequences... in the form of SpaceGodzilla! Before he returns to Earth, he\'ll have to do battle with an unexpected foe! Meanwhile, Go... \n\n$3.99  |  COMIC</item>
+        <item>Up on a roof-top, an alienated boy named Harry seeks out Mr. Gone to learn how he might gain power. Meanwhile, Maxx breaks into Gone\'s lair and is distraught by clues on a series of tapes Gone made fo... \n\n$3.99  |  COMIC</item>
     </string-array>
     <string-array name="idwNextWeekTitles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Danger Girl: May Day #4</item>
+        <item>Dead Squad #1</item>
+        <item>Haunted Horror #13</item>
+        <item>The October Faction #1</item>
+        <item>Ragnarok #2</item>
     </string-array>
     <string-array name="idwNextWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>It\'s the explosive conclusion to the most dangerous story of the year - return of the traitorous Natalia Kassle! Recovered and resuscitated by the enigmatic April Mayday, will Natalia join forces wit... \n\n$3.99  |  LIMITED SERIES</item>
+        <item>The latest from Darby Pop! Three highly-trained Delta Force Operators embark on a high-stakes mission to obtain a mysterious serum. But when they are betrayed by one of their own, securing the drug im... \n\n$3.99  |  COMIC</item>
+        <item>You\'re out of luck if you buy this unlucky 13th issue of Haunted Horror jammed full of nasty, gross, scary inappropriate, disgusting, lurid, banned comics from the 1950s! We are not responsible if pos... \n\n$3.99  |  COMIC</item>
+        <item>The creative team behind Monster and Madman would like to introduce you to the ongoing adventures of retired monster-hunter Frederick Allan and his family. \n\n$3.99  |  COMIC</item>
+        <item>Walter Simonson\'s grand epic continues! The Black Elf Assassin and her team of trolls, orcs, and renegades has reached to the Fortress at the Edge of the World. Their masked employer gifted them with... \n\n$3.99  |  COMIC</item>
     </string-array>
     <string-array name="imageLastWeekTitles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Birthright #1</item>
+        <item>Black Science #9</item>
+        <item>Copperhead #2</item>
+        <item>Cutter #2</item>
+        <item>Dark Engine #3</item>
     </string-array>
     <string-array name="imageLastWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>For the Rhodes family, losing their son was the most devastating thing that could\'ve ever occurred. \n\n$2.99  |  COMIC</item>
+        <item>Conflict is the only constant, as the Dimensionauts are embroiled in a brutal war which threatens to engulf the fantastical land they are stranded in. But how can they uncover the horrible truth about... \n\n$3.50  |  COMIC</item>
+        <item>Find out why Brian K. Vaughan says \"Copperhead is the best Image debut of the year and my favorite new comic,\" as Sheriff Clara Bronson and Deputy Boo continue their investigation of a multiple homici... \n\n$3.50  |  COMIC</item>
+        <item>CUTTER: Issues 1-4, weekly throughout October! What if that kid you and your friends picked on in your youth came back with a vengeance...to kill you and your friends? That dark guilt-ridden fear is a... \n\n$3.99  |  COMIC</item>
+        <item>The dragon that dreams of salvation is awakened in the heart of a Gigah. \n\n$3.50  |  COMIC</item>
     </string-array>
     <string-array name="imageCurrentWeekTitles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Cutter #3</item>
+        <item>Deadly Class #8</item>
+        <item>Manifest Destiny #11</item>
+        <item>Spawn #247</item>
+        <item>Trees #6</item>
     </string-array>
     <string-array name="imageCurrentWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>CUTTER: Issues 1-4, weekly throughout October! What if that kid you and your friends picked on in your youth came back with a vengeance...to kill you and your friends? That dark guilt-ridden fear is a... \n\n$3.99  |  COMIC</item>
+        <item>Kings Dominion School of the Deadly Arts is about to get some competition, as everyone\'s favorite animal-loving scar-faced maniac is opening a little murder-academy of his own. And look, he\'s brought... \n\n$3.50  |  COMIC</item>
+        <item>\'What do you plan on using as bait?\' \n\n$2.99  |  COMIC</item>
+        <item>Sara is rushed to the hospital after the unthinkable happens at her apartment. Everyone comes to her aide, but each has a separate agenda that puts not only Sara, but also Jim in danger. \n\n$2.99  |  COMIC</item>
+        <item>Blindhail Station is a research post on Svalbard, in the Arctic Ocean, where observers have been watching a Tree since it landed ten years earlier. Out here, out of sight of the world, something is ch... \n\n$2.99  |  COMIC</item>
     </string-array>
     <string-array name="imageNextWeekTitles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Dream Merchant #5</item>
+        <item>Drumhellar #10</item>
+        <item>Elephantmen #60</item>
+        <item>Five Ghosts #13</item>
+        <item>Goners #1</item>
     </string-array>
     <string-array name="imageNextWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Everything that rises must converge. Winslow embraces his dream and is ready to defend the world from what is already here. The tale draws to a close and the scope of Winslow\'s dream is larger than a... \n\n$3.50  |  LIMITED SERIES</item>
+        <item>Drum strikes a deal that might keep him alive, but at what cost? The consequences ripple across time and space to affect the living, the dead, and the unborn alike, and Drum learns he might be a pawn... \n\n$3.50  |  COMIC</item>
+        <item>Our 60th issue celebrates the Wedding of Obadiah Horn and Sahara. \n\n$3.99  |  COMIC</item>
+        <item>BRAND NEW STORY ARC! \'MONSTERS and MEN\' Part One The critically acclaimed award-winning series returns! Fabian travels to eastern Europe for an all-new adventure! \n\n$3.50  |  COMIC</item>
+        <item>\'WE ALL FALL DOWN,\' Part One From the colonization of Roanoke to the Cold War, the world famous Latimer Family has been humanity\'s lone defense against paranormal horrors for centuries...until tonight... \n\n$2.99  |  COMIC</item>
     </string-array>
     <string-array name="marvelLastWeekTitles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Avengers (2012) #36</item>
+        <item>Captain Marvel (2014) #8</item>
+        <item>Hawkeye vs. Deadpool #1</item>
+        <item>Miracleman #12</item>
+        <item>Nightcrawler (2014) #7</item>
     </string-array>
     <string-array name="marvelLastWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>IN 7 MONTHS TIME RUNS OUT! Rated T+ \n\n$3.99  |  COMIC</item>
+        <item>\* Carol\'s bombastic adventure through space with her pet, Chewie, continues! \n
+\* Rocket was right, though, Carol Corps! There\'s more to Chewie than meets the eye! But, where did the Flerken come f... \n\n $3.99  |  COMIC</item>
+        <item>\* Trick or treat! It\'s Halloween in Brooklyn, and that can only mean one thing -- disaster is right around the corner! \n
+\* Why are the bad guys dressed as good guys? And will Deadpool and Hawkeye kill... \n\n$3.99  |  LIMITED SERIES</item>
+        <item>\* Gargunza\'s final two subjects, Rebbeck and Lear, revealed at last! \n
+\* The origin of Miraclewoman! \n
+\* Enter: the Warpsmiths! \n
+\* Book Three continues in \"Aphrodite\"! \n
+\* Including materia... \n\n$4.99  |  COMIC</item>
+        <item>\* Not so long ago, Nightcrawler was dead. \n
+\* Now, with a second lease on life, Nightcrawler struggles to find his place back in the land of the living. \n
+\* But now tha... \n\n$3.99  |  COMIC</item>
     </string-array>
     <string-array name="marvelCurrentWeekTitles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Amazing Spider-Man (2014) #7</item>
+        <item>Daredevil (2014) #9</item>
+        <item>Deadpools Art of War #1</item>
+        <item>Fantastic Four (2014) #11</item>
+        <item>Hulk (2014) #7</item>
     </string-array>
     <string-array name="marvelCurrentWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>\* Peer over the EDGE OF SPIDER-VERSE! \n
+\* Spidey teams up with Ms. Marvel in a high-flying (stepping in Kamala\'s case) adventure! \n
+\* Who is Spider-UK and what does he have to do with SPIDER-VERSE? \n\n$3.99  |  COMIC</item>
+        <item>\* Matt Murdock has struggled mightily to rise above the tragedies that have plagued him in the past. \n
+\* Now, however, one of his oldest foes has unleashed a force that Daredevil cannot fight without ... \n\n$3.99  |  COMIC</item>
+        <item>Sun Tzu\'s Art of War has been called the definitive work on military strategy and tactics and has influenced leaders in both warfare and business for hundreds of years...which means it\'s totally in th... \n\n$3.99  |  LIMITED SERIES</item>
+        <item>\* While fighting a rogue\'s gallery of powerhouse villains in prison BEN GRIMM finds an unlikely ally. \n
+\* With the information he\'s learned, JOHNNY STORM\'S best friend WYATT WINGFOOT is in danger... \n\n$3.99  |  COMIC</item>
+        <item>DOC GREEN GETS HIS SITES ON MORE GAMMA TARGETS \n
+\* DOC GREEN versus SKAAR versus...hmm. We don\'t want to spoil it \n
+\* But were you worried Doc Green forgot about the GAMMA CORPS? \n
+\* Plus, an ap... \n\n$3.99  |  COMIC </item>
     </string-array>
     <string-array name="marvelNextWeekTitles">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Cyclops (2014) #6</item>
+        <item>Deadpool (2012) #36</item>
+        <item>New Warriors (2014) #11</item>
+        <item>Secret Avengers (2014) #9</item>
+        <item>She-Hulk (2014) #9</item>
     </string-array>
     <string-array name="marvelNextWeekDescriptions">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>RESCUED! But by who? And is it really a rescue
+or does this put Scott at greater risk than before? And what bounty are t... \n\n$3.99  |  COMIC</item>
+        <item>\* Oh, man...you know that totally secret thing that\'s gonna happen in AXIS? \n
+\* Yeah-that\'s totally gonna affect Deadpool! \n\n$3.99  |  COMIC</item>
+        <item>JUDGEMENT HAS COME FOR HUMANITY - AND THE NEW WARRIORS! \n\n$3.99  |  COMIC</item>
+        <item>\* How many more secrets are going to be uncovered? In this issue? Like, right now? MANY! \n
+\* Hawkeye and Deadpool work together to stop a deranged mullet-wearing ex-wrestler! But Dea... \n\n$3.99  |  COMIC</item>
+        <item>\* It\'s Jennifer Walters versus Matt Murdock in the trial of the century! \n
+\* Someone from Cap\'s past has come back to haunt them all...and She-Hulk might be his only ho... \n\n$2.99  |  COMIC</item>
+    </string-array>
+    <string-array name="favoritesTitles">
+        <item>Lumberjanes #7</item>
+        <item>Peanuts Vol.2 #22</item>
+    </string-array>
+    <string-array name="favoritesDescriptions">
+    <item>It\'s a race through the woods and through everyones\' favorite cave of doom as the Lumberjanes make their way through previous obstacles. Now they know what answers they\'re looking for and they are not... \n\n$3.99  |  LIMITED SERIES</item>
+    <item>When stars fill the skies, Charlie Brown, Lucy, and Linus must seek out the one star that can be called Charlie Brown\'s own. Charlie Brown\'s Star and many more brand-new adventures like Dogstoyefsky a... \n\n$3.99  |  COMIC</item>
     </string-array>
 
     <string name="title_activity_comic_release_list">ComicReleaseListActivity</string>

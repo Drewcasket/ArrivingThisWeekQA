@@ -117,7 +117,7 @@ public class ComicReleaseListActivity extends FragmentActivity implements Action
             if(i==0 && (companyTitle.equals("Image"))) {
                 fragment = new ImageLastWeekFragment();
             }
-            if (i==0 && (companyTitle.equals("Marvel"))) {
+            if (i==0 && (companyTitle.equals("Error 472"))) {
                 fragment = new MarvelLastWeekFragment();
             }
             if (i == 1 && (companyTitle.equals("Boom Studios"))) {
@@ -135,7 +135,7 @@ public class ComicReleaseListActivity extends FragmentActivity implements Action
             if (i == 1 && (companyTitle.equals("Image"))) {
                 fragment = new ImageCurrentWeekFragment();
             }
-            if (i == 1 && (companyTitle.equals("Marvel"))) {
+            if (i == 1 && (companyTitle.equals("Error 472"))) {
                 fragment = new MarvelCurrentWeekFragment();
             }
             if (i == 2 && (companyTitle.equals("Boom Studios"))) {
@@ -153,7 +153,7 @@ public class ComicReleaseListActivity extends FragmentActivity implements Action
             if (i == 2 && (companyTitle.equals("Image"))) {
                 fragment = new ImageNextWeekFragment();
             }
-            if (i == 2 && (companyTitle.equals("Marvel"))) {
+            if (i == 2 && (companyTitle.equals("Error 472"))) {
                 fragment = new MarvelNextWeekFragment();
             }
             return fragment;

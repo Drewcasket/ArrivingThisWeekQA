@@ -21,8 +21,8 @@ import android.widget.Toast;
 public class BoomLastWeekFragment extends Fragment implements AdapterView.OnItemClickListener {
 
     ListView list;
-    String [] boomTitles;
-    String [] boomDescriptions;
+    String [] comicTitles;
+    String [] comicDescriptions;
     int[] images = {R.drawable.adventuretime, R.drawable.cloaks, R.drawable.garfield, R.drawable.regularshow, R.drawable.robocop };
     int favImage;
 
@@ -38,10 +38,10 @@ public class BoomLastWeekFragment extends Fragment implements AdapterView.OnItem
         list = (ListView) getView().findViewById(android.R.id.list);
 
         Resources res = getResources();
-        boomTitles = res.getStringArray(R.array.boomLastWeekTitles);
-        boomDescriptions = res.getStringArray(R.array.boomLastWeekDescriptions);
+        comicTitles = res.getStringArray(R.array.boomLastWeekTitles);
+        comicDescriptions = res.getStringArray(R.array.boomLastWeekDescriptions);
 
-        BlwComicAdapter adapter = new BlwComicAdapter(getActivity(), boomTitles, boomDescriptions, images, favImage );
+        BlwComicAdapter adapter = new BlwComicAdapter(getActivity(), comicTitles, comicDescriptions, images, favImage );
         list.setAdapter(adapter);
         list.setOnItemClickListener(this);
     }
@@ -50,7 +50,7 @@ public class BoomLastWeekFragment extends Fragment implements AdapterView.OnItem
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Intent iCompany = new Intent(getActivity(), ComicReleaseListActivity.class);
         iCompany.putExtra(ComicReleaseListActivity.COMPANY_LOGO, images[position]);
-        iCompany.putExtra(ComicReleaseListActivity.COMPANY_TITLE, boomTitles[position]);
+        iCompany.putExtra(ComicReleaseListActivity.COMPANY_TITLE, comicTitles[position]);
         startActivity(iCompany);
     }
 }
@@ -103,6 +103,7 @@ class BlwComicAdapter extends ArrayAdapter<String> {
                 myFavON.setVisibility(View.VISIBLE);
                 myDescriptionOFF.setVisibility(View.GONE);
                 myDescriptionON.setVisibility(View.VISIBLE);
+                Toast.makeText(context, "Added to Favorites", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -113,6 +114,7 @@ class BlwComicAdapter extends ArrayAdapter<String> {
                 myFavON.setVisibility(View.GONE);
                 myDescriptionOFF.setVisibility(View.VISIBLE);
                 myDescriptionON.setVisibility(View.GONE);
+                Toast.makeText(context, "Removed from Favorites", Toast.LENGTH_SHORT).show();
             }
         });
         return row;

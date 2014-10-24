@@ -21,8 +21,8 @@ import android.widget.Toast;
 public class DarkhorseCurrentWeekFragment extends Fragment implements AdapterView.OnItemClickListener {
 
     ListView list;
-    String [] darkHorseTitles;
-    String [] darkHorseDescriptions;
+    String [] comicTitles;
+    String [] comicDescriptions;
     int[] images = {R.drawable.colderbadseed, R.drawable.gantz, R.drawable.pop, R.drawable.tombraider, R.drawable.vachss};
     int favImage;
 
@@ -38,10 +38,10 @@ public class DarkhorseCurrentWeekFragment extends Fragment implements AdapterVie
         list = (ListView) getView().findViewById(android.R.id.list);
 
         Resources res = getResources();
-        darkHorseTitles = res.getStringArray(R.array.darkhorseCurrentWeekTitles);
-        darkHorseDescriptions = res.getStringArray(R.array.darkhorseCurrentWeekDescriptions);
+        comicTitles = res.getStringArray(R.array.darkhorseCurrentWeekTitles);
+        comicDescriptions = res.getStringArray(R.array.darkhorseCurrentWeekDescriptions);
 
-        DHcwComicAdapter adapter = new DHcwComicAdapter(getActivity(), darkHorseTitles, darkHorseDescriptions, images, favImage );
+        DHcwComicAdapter adapter = new DHcwComicAdapter(getActivity(), comicTitles, comicDescriptions, images, favImage );
         list.setAdapter(adapter);
         list.setOnItemClickListener(this);
     }
@@ -50,7 +50,7 @@ public class DarkhorseCurrentWeekFragment extends Fragment implements AdapterVie
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Intent iCompany = new Intent(getActivity(), ComicReleaseListActivity.class);
         iCompany.putExtra(ComicReleaseListActivity.COMPANY_LOGO, images[position]);
-        iCompany.putExtra(ComicReleaseListActivity.COMPANY_TITLE, darkHorseTitles[position]);
+        iCompany.putExtra(ComicReleaseListActivity.COMPANY_TITLE, comicTitles[position]);
         startActivity(iCompany);
     }
 }
@@ -103,6 +103,7 @@ class DHcwComicAdapter extends ArrayAdapter<String> {
                 myFavON.setVisibility(View.VISIBLE);
                 myDescriptionOFF.setVisibility(View.GONE);
                 myDescriptionON.setVisibility(View.VISIBLE);
+                Toast.makeText(context, "Added to Favorites", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -113,6 +114,7 @@ class DHcwComicAdapter extends ArrayAdapter<String> {
                 myFavON.setVisibility(View.GONE);
                 myDescriptionOFF.setVisibility(View.VISIBLE);
                 myDescriptionON.setVisibility(View.GONE);
+                Toast.makeText(context, "Removed from Favorites", Toast.LENGTH_SHORT).show();
             }
         });
         return row;
