@@ -117,6 +117,27 @@ class DCcwComicAdapter extends ArrayAdapter<String> {
                 Toast.makeText(context, "Removed from Favorites", Toast.LENGTH_SHORT).show();
             }
         });
+
+        myImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, "Error 137: Could not...", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        myDescriptionOFF.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, "Error 137: Could not...", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        myDescriptionON.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, "Error 137: Could not...", Toast.LENGTH_SHORT).show();
+            }
+        });
         return row;
     }
 }
